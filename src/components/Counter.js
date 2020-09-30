@@ -43,3 +43,40 @@ function Counter() {
 
 
 export default Counter
+
+
+/*
+import React,{Component,useState,useEffect} from 'react'
+
+
+function useCounter (){
+    const[button,setButton] = useState("");
+    const onYesPress =()=>{
+        setButton("Yes" )
+        console.log("yes")
+    }
+  
+
+    const onNoPress=()=>{
+        setButton("No" )
+        console.log("No")
+    }
+
+return(
+    <div>
+     <div>
+        <button onClick={() => onYesPress()}>Yes</button>
+        <button onClick={() => onNoPress()}>No</button>
+      </div>
+
+    </div>
+)
+
+}
+
+
+
+
+export default useCounter
+
+*/
